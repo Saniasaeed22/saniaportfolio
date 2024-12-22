@@ -1,0 +1,88 @@
+/* Section Styling */
+.servicesSection {
+    background-color: black;
+    color: white;
+    padding: 2.5rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Heading Styling */
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.75rem;
+  }
+  
+  /* Grid for Service Cards */
+  .cardGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .cardGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .cardGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #ec4899; /* Pink color */
+    border: 2px solid #e11d48; /* Darker pink border */
+    padding: 2rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Hover effect to lift card */
+  }
+  
+  /* Card Title Styling */
+  .cardTitle {
+    font-size: 1.75rem;
+    font-weight: medium;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+    color: white;
+  }
+  
+  /* Icon Styling (Scaling for icons) */
+  .card svg {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  /* Card Description */
+  .card p {
+    font-size: 1rem;
+    color: #f1f5f9; /* Lighter text for readability */
+    padding-top: 1rem;
+  }
+  
+  /* Responsive Layout for Card Grid */
+  @media (min-width: 768px) {
+    .cardGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .cardGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

@@ -1,0 +1,95 @@
+/* Contact Section */
+.contactSection {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding: 2.5rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Form Container */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 3.5rem;
+}
+
+/* Grid for Input Fields */
+.inputGrid {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 4rem;
+}
+
+@media (min-width: 768px) {
+  .inputGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Input Fields */
+.inputField, .textareaField {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px solid #e91e63;
+  border-radius: 0.375rem;
+  outline: none;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.inputField:focus, .textareaField:focus {
+  border-color: #f43f5e; /* Darker pink for focus */
+  box-shadow: 0 0 0 2px rgba(244, 63, 94, 0.5); /* Focus ring */
+}
+
+.inputField:hover, .textareaField:hover {
+  background-color: #f43f5e; /* Pink on hover */
+}
+.TextArea {
+  resize: vertical;
+}
+
+/* Submit Button */
+.submitButton {
+  background-color: #e91e63;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #f43f5e; /* Lighter pink on hover */
+  color: black;
+}
+
+/* Button Container */
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contactSection {
+    padding: 2rem 1rem;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .formContainer {
+    padding: 1rem 2rem;
+  }
+}

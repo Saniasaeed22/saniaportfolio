@@ -1,0 +1,100 @@
+/* Hero Background */
+.hero {
+    min-height: 100vh;
+    background-image: url('/hero11.png');
+    background-position: right;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  /* Container for Content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+    color: white;
+  }
+  
+  /* Content Styling */
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  /* Introduction Section */
+  .intro {
+    font-weight: bold;
+  }
+  
+  .hello {
+    font-size: 1rem;
+  }
+  
+  .name {
+    font-size: 3rem;
+    color: #ec4899; /* Pink-600 */
+  }
+  
+  .jobTitle, .role {
+    font-size: 3rem;
+  }
+  
+  .descriptionText {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  
+  /* Button Container */
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.75rem;
+  }
+  
+  .contactButton {
+    color: white;
+    background-color: #ec4899; /* Pink-600 */
+    border-color: #9c1e6b; /* Pink-900 */
+    &:hover {
+      background-color: #7f1d1d; /* Darker pink */
+    }
+  }
+  
+  /* Social Icons */
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    padding-top: 1rem;
+  }
+  
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero {
+      background-size: 50%;
+    }
+  
+    .container {
+      padding: 2rem 1rem;
+    }
+  
+    .name {
+      font-size: 2.5rem;
+    }
+  
+    .jobTitle, .role {
+      font-size: 2rem;
+    }
+  
+    .descriptionText {
+      font-size: 1.5rem;
+    }
+  }
+  

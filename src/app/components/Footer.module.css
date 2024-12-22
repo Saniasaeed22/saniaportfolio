@@ -1,0 +1,90 @@
+/* Footer Container */
+.footerContainer {
+    background-color: #ec4899; /* Pink background */
+    color: white;
+    padding: 6rem 2rem; /* Padding for top/bottom */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Logo Section */
+  .logoContainer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Logo Text */
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .logoText {
+    font-size: 2rem;
+    font-weight: extra-bold;
+    background-color: white;
+    color: #ec4899; /* Pink color */
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    margin-right: 0.25rem;
+  }
+  
+  /* Social Media Icons */
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+  
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #f9fafb; /* Hover effect for icons */
+  }
+  
+  /* Navigation Links */
+  .navList {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navItem {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .navLink {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    color: #9ca3af; /* Hover effect for nav links */
+  }
+  .iconWrapper {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .iconWrapper:hover {
+    color: #f9fafb; /* Hover effect for icons */
+  }
+    
